@@ -1,0 +1,271 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+<aside class="main-sidebar sidebar-custom elevation-4 position-fixed" style="background-color: #fff; color: #000;">
+    <!-- Brand Logo -->
+    <a href="/adminPharmacyManagement/dashboard" class="brand-link" style="background-color: #6541e1; color: #fff;">
+        <img src="~/images/logo.png" alt="Logo" width="75px">
+        <span class="brand-text font-weight-light ms-2">Quản Lý Nhà Thuốc</span>
+    </a>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <!-- Sidebar User Panel -->
+        <div class="user-panel mt-3 pb-3 mb-3 d-flex position-fixed bottom-0" style="border-top: 1px solid #6541e1; width: 280px;">
+            <div class="image">
+                <img src="~/images/Logo.png" class="img-circle elevation-2" alt="Logo">
+            </div>
+            <div class="info">
+                @if (HttpContextAccessor.HttpContext.Session.GetString("AdminLogin") != null)
+                {
+                    <a href="#" class="d-block text-dark">@HttpContextAccessor.HttpContext.Session.GetString("AdminLogin")</a>
+                    <a asp-action="Logout" asp-controller="Login" class="btn btn-sm btn-danger mt-1" style="background-color: #509c2f; border: none;">
+                        <i class="fas fa-sign-out-alt"></i> Đăng Xuất
+                    </a>
+                }
+                else
+                {
+                    <a href="#" class="d-block text-dark">Duc Anh</a>
+                }
+            </div>
+        </div>
+
+        <!-- Sidebar Menu -->
+        <nav class="mt-2">
+            <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                <!-- Admin Accounts -->
+                <li class="nav-item">
+                    <a href="#" class="nav-link" style="color: #000;">
+                        <div class="d-flex align-items-center">
+                            <div class="icon-container me-2" style="width: 30px; color: #6541e1;">
+                                <i class="fa-solid fa-user-tie fa-lg"></i>
+                            </div>
+                            <p>Tài Khoản Admin <i class="right fas fa-angle-down"></i></p>
+                        </div>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a asp-controller="Admins" asp-action="Index" class="nav-link" style="color: #000;">
+                                <i class="fas fa-list nav-icon" style="color: #509c2f;"></i>
+                                <p>Danh Sách</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp-controller="Admins" asp-action="Create" class="nav-link" style="color: #000;">
+                                <i class="fas fa-plus-circle nav-icon" style="color: #509c2f;"></i>
+                                <p>Thêm Mới</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <!-- Customer Management -->
+                <li class="nav-item">
+                    <a href="#" class="nav-link" style="color: #000;">
+                        <div class="d-flex align-items-center">
+                            <div class="icon-container me-2" style="width: 30px; color: #6541e1;">
+                                <i class="fa-solid fa-users fa-lg"></i>
+                            </div>
+                            <p>Quản Lý Khách Hàng <i class="right fas fa-angle-down"></i></p>
+                        </div>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a asp-controller="Customers" asp-action="Index" class="nav-link" style="color: #000;">
+                                <i class="fas fa-list nav-icon" style="color: #509c2f;"></i>
+                                <p>Danh Sách</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp-controller="Customers" asp-action="Create" class="nav-link" style="color: #000;">
+                                <i class="fas fa-plus-circle nav-icon" style="color: #509c2f;"></i>
+                                <p>Thêm Mới</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <!-- Employee Management -->
+                <li class="nav-item">
+                    <a href="#" class="nav-link" style="color: #000;">
+                        <div class="d-flex align-items-center">
+                            <div class="icon-container me-2" style="width: 30px; color: #6541e1;">
+                                <i class="fa-solid fa-user-friends fa-lg"></i>
+                            </div>
+                            <p>Quản Lý Nhân Viên <i class="right fas fa-angle-down"></i></p>
+                        </div>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a asp-controller="Employees" asp-action="Index" class="nav-link" style="color: #000;">
+                                <i class="fas fa-list nav-icon" style="color: #509c2f;"></i>
+                                <p>Danh Sách</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp-controller="Employees" asp-action="Create" class="nav-link" style="color: #000;">
+                                <i class="fas fa-plus-circle nav-icon" style="color: #509c2f;"></i>
+                                <p>Thêm Mới</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <!-- Medicine Management -->
+                <li class="nav-item">
+                    <a href="#" class="nav-link" style="color: #000;">
+                        <div class="d-flex align-items-center">
+                            <div class="icon-container me-2" style="width: 30px; color: #6541e1;">
+                                <i class="fa-solid fa-pills fa-lg"></i>
+                            </div>
+                            <p>Quản Lý Thuốc <i class="right fas fa-angle-down"></i></p>
+                        </div>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a asp-controller="Medicines" asp-action="Index" class="nav-link" style="color: #000;">
+                                <i class="fas fa-list nav-icon" style="color: #509c2f;"></i>
+                                <p>Danh Sách</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp-controller="Medicines" asp-action="Create" class="nav-link" style="color: #000;">
+                                <i class="fas fa-plus-circle nav-icon" style="color: #509c2f;"></i>
+                                <p>Thêm Mới</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <!-- Category Management -->
+                <li class="nav-item">
+                    <a href="#" class="nav-link" style="color: #000;">
+                        <div class="d-flex align-items-center">
+                            <div class="icon-container me-2" style="width: 30px; color: #6541e1;">
+                                <i class="fa-solid fa-folder-open fa-lg"></i>
+                            </div>
+                            <p>Quản Lý Danh Mục <i class="right fas fa-angle-down"></i></p>
+                        </div>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a asp-controller="Categories" asp-action="Index" class="nav-link" style="color: #000;">
+                                <i class="fas fa-list nav-icon" style="color: #509c2f;"></i>
+                                <p>Danh Sách</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp-controller="Categories" asp-action="Create" class="nav-link" style="color: #000;">
+                                <i class="fas fa-plus-circle nav-icon" style="color: #509c2f;"></i>
+                                <p>Thêm Mới</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <!-- Import Management -->
+                <li class="nav-item">
+                    <a href="#" class="nav-link" style="color: #000;">
+                        <div class="d-flex align-items-center">
+                            <div class="icon-container me-2" style="width: 30px; color: #6541e1;">
+                                <i class="fa-solid fa-truck fa-lg"></i>
+                            </div>
+                            <p>Quản Lý Nhập Hàng <i class="right fas fa-angle-down"></i></p>
+                        </div>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a asp-controller="Imports" asp-action="Index" class="nav-link" style="color: #000;">
+                                <i class="fas fa-list nav-icon" style="color: #509c2f;"></i>
+                                <p>Danh Sách</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp-controller="Imports" asp-action="Create" class="nav-link" style="color: #000;">
+                                <i class="fas fa-plus-circle nav-icon" style="color: #509c2f;"></i>
+                                <p>Thêm Mới</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <!-- Order Management -->
+                <li class="nav-item">
+                    <a href="#" class="nav-link" style="color: #000;">
+                        <div class="d-flex align-items-center">
+                            <div class="icon-container me-2" style="width: 30px; color: #6541e1;">
+                                <i class="fa-solid fa-shopping-cart fa-lg"></i>
+                            </div>
+                            <p>Quản Lý Đơn Hàng <i class="right fas fa-angle-down"></i></p>
+                        </div>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a asp-controller="Orders" asp-action="Index" class="nav-link" style="color: #000;">
+                                <i class="fas fa-list nav-icon" style="color: #509c2f;"></i>
+                                <p>Danh Sách</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <!-- Order Details Management -->
+                <li class="nav-item">
+                    <a href="#" class="nav-link" style="color: #000;">
+                        <div class="d-flex align-items-center">
+                            <div class="icon-container me-2" style="width: 30px; color: #6541e1;">
+                                <i class="fa-solid fa-file-invoice fa-lg"></i>
+                            </div>
+                            <p>Chi Tiết Đơn Hàng <i class="right fas fa-angle-down"></i></p>
+                        </div>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a asp-controller="OrderDetails" asp-action="Index" class="nav-link" style="color: #000;">
+                                <i class="fas fa-list nav-icon" style="color: #509c2f;"></i>
+                                <p>Danh Sách</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</aside>
+
+<!-- Custom CSS -->
+<style>
+    .main-sidebar {
+        width: 280px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-link:hover {
+        background-color: #6541e1 !important;
+        color: #fff !important;
+        transition: all 0.3s ease;
+    }
+
+        .nav-link:hover i {
+            color: #fff !important;
+        }
+
+    .nav-treeview .nav-link {
+        padding-left: 3rem;
+    }
+
+        .nav-treeview .nav-link:hover {
+            background-color: #509c2f !important;
+            color: #fff !important;
+        }
+
+    .brand-link:hover {
+        opacity: 0.9;
+    }
+
+    .icon-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>

@@ -1,0 +1,138 @@
+﻿@model PharmacyManagement.Areas.AdminPharmacyManagement.Models.Login
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Đăng Nhập Admin</title>
+
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../../plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="../../dist/css/adminlte.min.css">
+
+    <style>
+        body {
+            background-color: #f4f6f9;
+            color: #000;
+        }
+
+        .login-box {
+            width: 400px;
+            margin: 80px auto;
+            padding: 30px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .login-title {
+            font-weight: 700;
+            font-size: 28px;
+            color: #6541e1;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .custom-input {
+            border-radius: 8px;
+            height: 45px;
+            padding-left: 40px;
+            border: 1px solid #6541e1;
+            transition: border-color 0.3s ease;
+        }
+
+            .custom-input:focus {
+                border-color: #509c2f;
+                box-shadow: 0 0 5px rgba(80, 156, 47, 0.5);
+            }
+
+        .input-group i {
+            position: absolute;
+            left: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #6541e1;
+        }
+
+        .btn-primary {
+            width: 100%;
+            background-color: #6541e1;
+            border: none;
+            border-radius: 8px;
+            padding: 12px;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+            .btn-primary:hover {
+                background-color: #509c2f;
+            }
+
+        .alert-danger {
+            margin-top: 20px;
+            font-size: 14px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body class="hold-transition login-page">
+    <div class="login-box">
+        <div class="login-title">Đăng Nhập Admin</div>
+
+        @if (!ViewData.ModelState.IsValid)
+        {
+            <div class="alert alert-danger">
+                <ul>
+                    @foreach (var modelState in ViewData.ModelState.Values)
+                    {
+                        foreach (var error in modelState.Errors)
+                        {
+                            <li>@error.ErrorMessage</li>
+                        }
+                    }
+                </ul>
+            </div>
+        }
+
+        <form asp-action="Index" method="post">
+            <!-- Email input -->
+            <div class="input-group">
+                <i class="fas fa-envelope"></i>
+                <input asp-for="Email" type="email" class="custom-input form-control"
+                       placeholder="Email" required />
+            </div>
+
+            <!-- Password input -->
+            <div class="input-group">
+                <i class="fas fa-lock"></i>
+                <input asp-for="Password" type="password" class="custom-input form-control"
+                       placeholder="Mật khẩu" required />
+            </div>
+
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-primary">
+                <i class="fas fa-sign-in-alt me-2"></i> Đăng Nhập
+            </button>
+        </form>
+    </div>
+
+    <!-- Scripts -->
+    <script src="../../plugins/jquery/jquery.min.js"></script>
+    <script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../../dist/js/adminlte.min.js"></script>
+</body>
+</html>
