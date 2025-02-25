@@ -1,67 +1,73 @@
 ﻿@model PharmacyManagement.Models.Admin
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Chi Tiết Admin";
     Layout = "~/Areas/AdminPharmacyManagement/Views/Shared/Admin.cshtml";
 }
 
-<h1>Details</h1>
+<h1 class="mb-4" style="color: #6541e1;"><i class="fas fa-user me-2"></i> Chi Tiết Admin</h1>
 
-<div>
-    <h4>Admin</h4>
-    <hr />
+<hr style="border-color: #6541e1;" />
+
+<div class="card p-4 bg-white rounded shadow-sm">
+    <h4 class="mb-3" style="color: #6541e1;"><i class="fas fa-info-circle me-2"></i> Thông Tin Admin</h4>
     <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Username)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Username)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Password)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Password)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Name)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Name)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Email)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Email)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Phone)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Phone)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Role)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Role)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.CreatedAt)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.CreatedAt)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.UpdatedAt)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.UpdatedAt)
-        </dd>
+        <dt class="col-sm-3 fw-bold"><i class="fas fa-user me-2" style="color: #6541e1;"></i> Tên Đăng Nhập</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.Username)</dd>
+
+        <dt class="col-sm-3 fw-bold"><i class="fas fa-lock me-2" style="color: #6541e1;"></i> Mật Khẩu</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.Password)</dd>
+
+        <dt class="col-sm-3 fw-bold"><i class="fas fa-id-card me-2" style="color: #6541e1;"></i> Họ Tên</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.Name)</dd>
+
+        <dt class="col-sm-3 fw-bold"><i class="fas fa-envelope me-2" style="color: #6541e1;"></i> Email</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.Email)</dd>
+
+        <dt class="col-sm-3 fw-bold"><i class="fas fa-phone me-2" style="color: #6541e1;"></i> Số Điện Thoại</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.Phone)</dd>
+
+        <dt class="col-sm-3 fw-bold"><i class="fas fa-user-tag me-2" style="color: #6541e1;"></i> Vai Trò</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.Role)</dd>
+
+        <dt class="col-sm-3 fw-bold"><i class="fas fa-calendar-plus me-2" style="color: #6541e1;"></i> Ngày Tạo</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.CreatedAt)</dd>
+
+        <dt class="col-sm-3 fw-bold"><i class="fas fa-calendar-alt me-2" style="color: #6541e1;"></i> Ngày Cập Nhật</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.UpdatedAt)</dd>
     </dl>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.AdminId">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+
+<div class="mt-4">
+    <a asp-action="Edit" asp-route-id="@Model?.AdminId" class="btn btn-primary me-2" style="background-color: #6541e1; border: none;">
+        <i class="fas fa-edit me-2"></i> Chỉnh Sửa
+    </a>
+    <a asp-action="Index" class="btn btn-secondary" style="background-color: #509c2f; border: none; color: #fff;">
+        <i class="fas fa-arrow-left me-2"></i> Quay Lại Danh Sách
+    </a>
 </div>
+
+<!-- Custom CSS -->
+<style>
+    .card {
+        border: 1px solid #6541e1;
+    }
+
+    .btn-primary:hover {
+        background-color: #509c2f;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-secondary:hover {
+        background-color: #6541e1;
+        transition: background-color 0.3s ease;
+    }
+
+    dt {
+        color: #000;
+    }
+
+    dd {
+        color: #333;
+    }
+</style>

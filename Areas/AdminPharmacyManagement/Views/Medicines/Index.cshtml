@@ -1,90 +1,107 @@
 ﻿@model IEnumerable<PharmacyManagement.Models.Medicine>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Danh sách thuốc";
     Layout = "~/Areas/AdminPharmacyManagement/Views/Shared/Admin.cshtml";
 }
 
-<h1>Index</h1>
+<div class="container mt-4">
+    <h1 class="text-primary mb-4">Danh sách thuốc</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Name)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Description)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Manufacturer)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Price)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CostPrice)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Stock)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ExpiryDate)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Usage)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Image)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Category)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Description)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Manufacturer)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Price)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CostPrice)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Stock)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ExpiryDate)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Usage)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Image)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Category.CategoryId)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.MedicineId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.MedicineId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.MedicineId">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+    <p>
+        <a asp-action="Create" class="btn btn-success"><i class="fas fa-plus mr-2"></i> Thêm mới</a>
+    </p>
+
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th><i class="fas fa-pills mr-2"></i> @Html.DisplayNameFor(model => model.Name)</th>
+                    <th><i class="fas fa-file-alt mr-2"></i> @Html.DisplayNameFor(model => model.Description)</th>
+                    <th><i class="fas fa-industry mr-2"></i> @Html.DisplayNameFor(model => model.Manufacturer)</th>
+                    <th><i class="fas fa-dollar-sign mr-2"></i> @Html.DisplayNameFor(model => model.Price)</th>
+                    <th><i class="fas fa-dollar-sign mr-2"></i> @Html.DisplayNameFor(model => model.CostPrice)</th>
+                    <th><i class="fas fa-warehouse mr-2"></i> @Html.DisplayNameFor(model => model.Stock)</th>
+                    <th><i class="fas fa-calendar-alt mr-2"></i> @Html.DisplayNameFor(model => model.ExpiryDate)</th>
+                    <th><i class="fas fa-prescription-bottle-alt mr-2"></i> @Html.DisplayNameFor(model => model.Usage)</th>
+                    <th><i class="fas fa-image mr-2"></i> @Html.DisplayNameFor(model => model.Image)</th>
+                    <th><i class="fas fa-list-ul mr-2"></i> @Html.DisplayNameFor(model => model.Category)</th>
+                    <th>Hành động</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Description)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Manufacturer)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Price)</td>
+                        <td>@Html.DisplayFor(modelItem => item.CostPrice)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Stock)</td>
+                        <td>@Html.DisplayFor(modelItem => item.ExpiryDate)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Usage)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Image)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Category.CategoryId)</td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.MedicineId" class="btn btn-sm btn-primary"><i class="fas fa-edit"></i></a>
+                            <a asp-action="Details" asp-route-id="@item.MedicineId" class="btn btn-sm btn-info"><i class="fas fa-info-circle"></i></a>
+                            <a asp-action="Delete" asp-route-id="@item.MedicineId" class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<style>
+    .text-primary {
+        color: #6541e1 !important;
+    }
+
+    .btn-success {
+        background-color: #509c2f;
+        border-color: #509c2f;
+    }
+
+        .btn-success:hover {
+            background-color: #3f7b24;
+            border-color: #3f7b24;
+        }
+
+    .btn-primary {
+        background-color: #6541e1;
+        border-color: #6541e1;
+    }
+
+        .btn-primary:hover {
+            background-color: #509c2f;
+            border-color: #509c2f;
+        }
+
+    .btn-info {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+
+        .btn-info:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+
+    .btn-danger {
+        background-color: #dc3545;
+        border-color: #dc3545;
+    }
+
+        .btn-danger:hover {
+            background-color: #c82333;
+            border-color: #c82333;
+        }
+
+    .table-responsive {
+        overflow-x: auto;
+    }
+</style>

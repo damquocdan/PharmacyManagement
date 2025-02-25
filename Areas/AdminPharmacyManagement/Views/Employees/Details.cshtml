@@ -1,49 +1,91 @@
 ﻿@model PharmacyManagement.Models.Employee
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Chi tiết nhân viên";
     Layout = "~/Areas/AdminPharmacyManagement/Views/Shared/Admin.cshtml";
 }
 
-<h1>Details</h1>
+<div class="container mt-4">
+    <h1 class="text-primary mb-4">Chi tiết nhân viên</h1>
 
-<div>
-    <h4>Employee</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Name)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Name)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Phone)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Phone)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Email)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Email)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Position)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Position)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Salary)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Salary)
-        </dd>
-    </dl>
+    <div class="card shadow">
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3 font-weight-bold">
+                    <i class="fas fa-user mr-2"></i> @Html.DisplayNameFor(model => model.Name)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.Name)
+                </dd>
+
+                <dt class="col-sm-3 font-weight-bold">
+                    <i class="fas fa-phone mr-2"></i> @Html.DisplayNameFor(model => model.Phone)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.Phone)
+                </dd>
+
+                <dt class="col-sm-3 font-weight-bold">
+                    <i class="fas fa-envelope mr-2"></i> @Html.DisplayNameFor(model => model.Email)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.Email)
+                </dd>
+
+                <dt class="col-sm-3 font-weight-bold">
+                    <i class="fas fa-briefcase mr-2"></i> @Html.DisplayNameFor(model => model.Position)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.Position)
+                </dd>
+
+                <dt class="col-sm-3 font-weight-bold">
+                    <i class="fas fa-money-bill-alt mr-2"></i> @Html.DisplayNameFor(model => model.Salary)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.Salary)
+                </dd>
+            </dl>
+        </div>
+    </div>
+
+    <div class="mt-4">
+        <a asp-action="Edit" asp-route-id="@Model?.EmployeeId" class="btn btn-primary">
+            <i class="fas fa-edit mr-2"></i> Chỉnh sửa
+        </a>
+        <a asp-action="Index" class="btn btn-secondary">
+            <i class="fas fa-arrow-left mr-2"></i> Quay lại danh sách
+        </a>
+    </div>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.EmployeeId">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<style>
+    .text-primary {
+        color: #6541e1 !important;
+    }
+
+    .btn-primary {
+        background-color: #6541e1;
+        border-color: #6541e1;
+    }
+
+        .btn-primary:hover {
+            background-color: #509c2f;
+            border-color: #509c2f;
+        }
+
+    .btn-secondary {
+        background-color: #fff;
+        border-color: #000;
+        color: #000;
+    }
+
+        .btn-secondary:hover {
+            background-color: #eee;
+        }
+
+    .card {
+        border: 1px solid #ddd;
+    }
+</style>

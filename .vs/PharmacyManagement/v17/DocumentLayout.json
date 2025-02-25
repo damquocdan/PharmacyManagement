@@ -3,24 +3,180 @@
   "WorkspaceRootPath": "E:\\DATN\\PharmacyManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\views\\admins\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\views\\admins\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\views\\orders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\views\\orders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\views\\orders\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\views\\orders\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\views\\orderdetails\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\views\\orderdetails\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\views\\orderdetails\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\views\\orderdetails\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\views\\orderdetails\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\views\\orderdetails\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\views\\orderdetails\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\views\\orderdetails\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\views\\orderdetails\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\views\\orderdetails\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\views\\medicines\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\views\\medicines\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\views\\medicines\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\views\\medicines\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\views\\medicines\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\views\\medicines\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\views\\medicines\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\views\\medicines\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\views\\medicines\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\views\\medicines\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\views\\imports\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\views\\imports\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\views\\imports\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\views\\imports\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\views\\imports\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\views\\imports\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\views\\imports\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\views\\imports\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\views\\imports\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\views\\imports\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\views\\employees\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\views\\employees\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\views\\employees\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\views\\employees\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\views\\employees\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\views\\employees\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\views\\employees\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\views\\employees\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\views\\customers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\views\\customers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\views\\customers\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\views\\customers\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\views\\customers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\views\\customers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\views\\customers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\views\\customers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\views\\categories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\views\\categories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\views\\admins\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\views\\admins\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\views\\admins\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\views\\admins\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\views\\admins\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\views\\admins\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\views\\admins\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\views\\admins\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\views\\admins\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\views\\admins\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|solutionrelative:areas\\adminpharmacymanagement\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F5FD3A68-EE90-4728-A04A-1AFEA7C50D39}|PharmacyManagement.csproj|e:\\datn\\pharmacymanagement\\areas\\adminpharmacymanagement\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -139,97 +295,448 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Admins\\Create.cshtml",
-              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Admins\\Create.cshtml",
-              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Admins\\Create.cshtml",
-              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\Admins\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABOAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Orders\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Orders\\Index.cshtml",
+              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Orders\\Index.cshtml",
+              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\Orders\\Index.cshtml",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAIwGAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-25T11:17:06.967Z",
+              "WhenOpened": "2025-02-25T11:54:24.023Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Login\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Login\\Index.cshtml",
-              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Login\\Index.cshtml",
-              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\Login\\Index.cshtml",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAAAIkAAAAHAAAAAAAAAA==",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Orders\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Orders\\Edit.cshtml",
+              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Orders\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\Orders\\Edit.cshtml",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAAFoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-25T10:41:31.347Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Admin.cshtml",
-              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Shared\\Admin.cshtml",
-              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Shared\\Admin.cshtml",
-              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Shared\\Admin.cshtml",
-              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\Shared\\Admin.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACAAAAAPAQAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-25T10:42:25.129Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DashboardController.cs",
-              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Controllers\\DashboardController.cs",
-              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Controllers\\DashboardController.cs",
-              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Controllers\\DashboardController.cs",
-              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Controllers\\DashboardController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T10:38:40.205Z",
+              "WhenOpened": "2025-02-25T11:53:54.547Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "_SideBar.cshtml",
-              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Shared\\_SideBar.cshtml",
-              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Shared\\_SideBar.cshtml",
-              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Shared\\_SideBar.cshtml",
-              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\Shared\\_SideBar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4BAAAIAAAAAAAAAA==",
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Orders\\Details.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Orders\\Details.cshtml",
+              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Orders\\Details.cshtml",
+              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\Orders\\Details.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAIwEIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-25T10:42:28.024Z",
+              "WhenOpened": "2025-02-25T11:53:29.81Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_Preloader.cshtml",
-              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Shared\\_Preloader.cshtml",
-              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Shared\\_Preloader.cshtml",
-              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Shared\\_Preloader.cshtml",
-              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\Shared\\_Preloader.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Orders\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Orders\\Delete.cshtml",
+              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Orders\\Delete.cshtml",
+              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\Orders\\Delete.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAIwB4AAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-25T10:42:30.039Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_NavBar.cshtml",
-              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Shared\\_NavBar.cshtml",
-              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Shared\\_NavBar.cshtml",
-              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Shared\\_NavBar.cshtml",
-              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\Shared\\_NavBar.cshtml",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-25T10:42:31.69Z",
+              "WhenOpened": "2025-02-25T11:52:28.851Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Orders\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Orders\\Create.cshtml",
+              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Orders\\Create.cshtml",
+              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\Orders\\Create.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAAEsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T11:52:05.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\OrderDetails\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\OrderDetails\\Index.cshtml",
+              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\OrderDetails\\Index.cshtml",
+              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\OrderDetails\\Index.cshtml",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAAF4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T11:51:36.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\OrderDetails\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\OrderDetails\\Edit.cshtml",
+              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\OrderDetails\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\OrderDetails\\Edit.cshtml",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAAFQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T11:51:10.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\OrderDetails\\Details.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\OrderDetails\\Details.cshtml",
+              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\OrderDetails\\Details.cshtml",
+              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\OrderDetails\\Details.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAAD8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T11:50:25.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\OrderDetails\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\OrderDetails\\Delete.cshtml",
+              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\OrderDetails\\Delete.cshtml",
+              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\OrderDetails\\Delete.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAEQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T11:50:01.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\OrderDetails\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\OrderDetails\\Create.cshtml",
+              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\OrderDetails\\Create.cshtml",
+              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\OrderDetails\\Create.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAAFEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T11:49:36.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Medicines\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Medicines\\Index.cshtml",
+              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Medicines\\Index.cshtml",
+              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\Medicines\\Index.cshtml",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAIwGoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T11:49:13.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Medicines\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Medicines\\Edit.cshtml",
+              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Medicines\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\Medicines\\Edit.cshtml",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAAAHgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T11:48:39.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Medicines\\Details.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Medicines\\Details.cshtml",
+              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Medicines\\Details.cshtml",
+              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\Medicines\\Details.cshtml",
+              "ViewState": "AgIAACsAAAAAAAAAAAAIwFEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T11:48:16.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Medicines\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Medicines\\Delete.cshtml",
+              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Medicines\\Delete.cshtml",
+              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\Medicines\\Delete.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAIwEUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T11:47:36.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Medicines\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Medicines\\Create.cshtml",
+              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Medicines\\Create.cshtml",
+              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\Medicines\\Create.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAHYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T11:47:08.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Imports\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Imports\\Index.cshtml",
+              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Imports\\Index.cshtml",
+              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\Imports\\Index.cshtml",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAAGAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T11:46:27.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Imports\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Imports\\Edit.cshtml",
+              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Imports\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\Imports\\Edit.cshtml",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAAFoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T11:46:01.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Imports\\Details.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Imports\\Details.cshtml",
+              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Imports\\Details.cshtml",
+              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\Imports\\Details.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAAEIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T11:45:06.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Imports\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Imports\\Delete.cshtml",
+              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Imports\\Delete.cshtml",
+              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\Imports\\Delete.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAEcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T11:44:35.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Imports\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Imports\\Create.cshtml",
+              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Imports\\Create.cshtml",
+              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\Imports\\Create.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAFIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T11:44:13.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Employees\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Employees\\Index.cshtml",
+              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Employees\\Index.cshtml",
+              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\Employees\\Index.cshtml",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAAGAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T11:43:46.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Employees\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Employees\\Edit.cshtml",
+              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Employees\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\Employees\\Edit.cshtml",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAAFoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T11:42:57.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Employees\\Details.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Employees\\Details.cshtml",
+              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Employees\\Details.cshtml",
+              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\Employees\\Details.cshtml",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAAFoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T11:40:31.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Employees\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Employees\\Delete.cshtml",
+              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Employees\\Delete.cshtml",
+              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\Employees\\Delete.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAEUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T11:39:46.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Employees\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Employees\\Create.cshtml",
+              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Employees\\Create.cshtml",
+              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\Employees\\Create.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAGUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T11:38:58.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Customers\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Customers\\Create.cshtml",
+              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Customers\\Create.cshtml",
+              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\Customers\\Create.cshtml",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAAAGwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T11:37:46.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Customers\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Customers\\Delete.cshtml",
+              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Customers\\Delete.cshtml",
+              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\Customers\\Delete.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAEgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T11:36:58.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Customers\\Details.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Customers\\Details.cshtml",
+              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Customers\\Details.cshtml",
+              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\Customers\\Details.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAEIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T11:35:04.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Customers\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Customers\\Edit.cshtml",
+              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Customers\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\Customers\\Edit.cshtml",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAAG0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T11:34:15.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Customers\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Customers\\Index.cshtml",
+              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Customers\\Index.cshtml",
+              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\Customers\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T11:33:16.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Categories\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Categories\\Create.cshtml",
+              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Categories\\Create.cshtml",
+              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\Categories\\Create.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAFAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T11:32:26.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Categories\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Categories\\Delete.cshtml",
+              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Categories\\Delete.cshtml",
+              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\Categories\\Delete.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T11:31:54.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Categories\\Details.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Categories\\Details.cshtml",
+              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Categories\\Details.cshtml",
+              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\Categories\\Details.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T11:31:01.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Categories\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Categories\\Edit.cshtml",
+              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Categories\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\Categories\\Edit.cshtml",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAAFEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T11:30:14.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Dashboard\\Index.cshtml",
               "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Dashboard\\Index.cshtml",
@@ -242,7 +749,158 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 35,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Categories\\Index.cshtml",
+              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Categories\\Index.cshtml",
+              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\Categories\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAFEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T11:28:57.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Admins\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Admins\\Index.cshtml",
+              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Admins\\Index.cshtml",
+              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\Admins\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAF0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T11:23:32.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Admins\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Admins\\Edit.cshtml",
+              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Admins\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\Admins\\Edit.cshtml",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAAAHsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T11:22:54.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Admins\\Details.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Admins\\Details.cshtml",
+              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Admins\\Details.cshtml",
+              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\Admins\\Details.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAEgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T11:22:11.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Admins\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Admins\\Delete.cshtml",
+              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Admins\\Delete.cshtml",
+              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\Admins\\Delete.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAAEIAAAB5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T11:20:17.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Admins\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Admins\\Create.cshtml",
+              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Admins\\Create.cshtml",
+              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\Admins\\Create.cshtml",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAAHAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T11:17:06.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Login\\Index.cshtml",
+              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\Login\\Index.cshtml",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAAAIkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T10:41:31.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Admin.cshtml",
+              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Shared\\Admin.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Shared\\Admin.cshtml",
+              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Shared\\Admin.cshtml",
+              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\Shared\\Admin.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACAAAAAPAQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T10:42:25.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Controllers\\DashboardController.cs",
+              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T10:38:40.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "_SideBar.cshtml",
+              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Shared\\_SideBar.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Shared\\_SideBar.cshtml",
+              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Shared\\_SideBar.cshtml",
+              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\Shared\\_SideBar.cshtml",
+              "ViewState": "AgIAAOcAAAAAAAAAAAAAAO0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T10:42:28.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "_Preloader.cshtml",
+              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Shared\\_Preloader.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Shared\\_Preloader.cshtml",
+              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Shared\\_Preloader.cshtml",
+              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\Shared\\_Preloader.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T10:42:30.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "_NavBar.cshtml",
+              "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Shared\\_NavBar.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Shared\\_NavBar.cshtml",
+              "ToolTip": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Shared\\_NavBar.cshtml",
+              "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\Shared\\_NavBar.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T10:42:31.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
               "Title": "OrdersController.cs",
               "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Controllers\\OrdersController.cs",
               "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Controllers\\OrdersController.cs",
@@ -250,12 +908,11 @@
               "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Controllers\\OrdersController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T10:52:40.906Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T10:52:40.906Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 49,
               "Title": "AdminsController.cs",
               "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Controllers\\AdminsController.cs",
               "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Controllers\\AdminsController.cs",
@@ -263,12 +920,11 @@
               "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Controllers\\AdminsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T10:48:07.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T10:48:07.178Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 50,
               "Title": "OrderDetailsController.cs",
               "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Controllers\\OrderDetailsController.cs",
               "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Controllers\\OrderDetailsController.cs",
@@ -276,12 +932,11 @@
               "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Controllers\\OrderDetailsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T10:53:15.877Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T10:53:15.877Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 51,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\_ViewImports.cshtml",
@@ -289,12 +944,11 @@
               "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-25T10:42:07.957Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T10:42:07.957Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 48,
               "Title": "CustomersController.cs",
               "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Controllers\\CustomersController.cs",
               "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Controllers\\CustomersController.cs",
@@ -302,12 +956,11 @@
               "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Controllers\\CustomersController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T10:49:30.619Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T10:49:30.619Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 52,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\_ViewStart.cshtml",
@@ -315,12 +968,11 @@
               "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-25T10:42:19.862Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T10:42:19.862Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 53,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -328,12 +980,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T10:42:59.872Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T10:42:59.872Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 54,
               "Title": "BaseController.cs",
               "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Controllers\\BaseController.cs",
               "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Controllers\\BaseController.cs",
@@ -341,12 +992,11 @@
               "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Controllers\\BaseController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T10:38:14.647Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T10:38:14.647Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 55,
               "Title": "MedicinesController.cs",
               "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Controllers\\MedicinesController.cs",
               "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Controllers\\MedicinesController.cs",
@@ -354,12 +1004,11 @@
               "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Controllers\\MedicinesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T10:51:19.562Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T10:51:19.562Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 56,
               "Title": "ImportsController.cs",
               "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Controllers\\ImportsController.cs",
               "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Controllers\\ImportsController.cs",
@@ -367,12 +1016,11 @@
               "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Controllers\\ImportsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T10:50:45.626Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T10:50:45.626Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 57,
               "Title": "EmployeesController.cs",
               "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Controllers\\EmployeesController.cs",
               "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Controllers\\EmployeesController.cs",
@@ -380,12 +1028,11 @@
               "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Controllers\\EmployeesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T10:50:07.337Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T10:50:07.337Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 58,
               "Title": "CategoriesController.cs",
               "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Controllers\\CategoriesController.cs",
@@ -393,12 +1040,11 @@
               "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Controllers\\CategoriesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T10:48:45.036Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T10:48:45.036Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 60,
               "Title": "Admin.cs",
               "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Models\\Admin.cs",
               "RelativeDocumentMoniker": "Models\\Admin.cs",
@@ -406,12 +1052,11 @@
               "RelativeToolTip": "Models\\Admin.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T10:45:59.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T10:45:59.36Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 62,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -419,12 +1064,11 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-25T10:43:40.472Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T10:43:40.472Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 61,
               "Title": "Login.cs",
               "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Models\\Login.cs",
               "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Models\\Login.cs",
@@ -432,12 +1076,11 @@
               "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Models\\Login.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T10:40:55.189Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T10:40:55.189Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 59,
               "Title": "LoginController.cs",
               "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Controllers\\LoginController.cs",
@@ -445,12 +1088,11 @@
               "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Controllers\\LoginController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T10:38:26.436Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T10:38:26.436Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 63,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Areas\\AdminPharmacyManagement\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Areas\\AdminPharmacyManagement\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -458,12 +1100,11 @@
               "RelativeToolTip": "Areas\\AdminPharmacyManagement\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-25T10:42:27.232Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T10:42:27.232Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 64,
               "Title": "ScaffoldingReadMe.txt",
               "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\ScaffoldingReadMe.txt",
               "RelativeDocumentMoniker": "ScaffoldingReadMe.txt",
@@ -471,12 +1112,11 @@
               "RelativeToolTip": "ScaffoldingReadMe.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-02-25T10:37:03.264Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T10:37:03.264Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 65,
               "Title": "PharmacyManagementContext.cs",
               "DocumentMoniker": "E:\\DATN\\PharmacyManagement\\Models\\PharmacyManagementContext.cs",
               "RelativeDocumentMoniker": "Models\\PharmacyManagementContext.cs",
@@ -484,8 +1124,7 @@
               "RelativeToolTip": "Models\\PharmacyManagementContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T10:34:16.86Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T10:34:16.86Z"
             }
           ]
         }

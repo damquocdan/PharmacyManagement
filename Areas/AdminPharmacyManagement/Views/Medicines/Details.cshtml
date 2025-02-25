@@ -1,79 +1,82 @@
 ﻿@model PharmacyManagement.Models.Medicine
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Chi tiết thuốc";
     Layout = "~/Areas/AdminPharmacyManagement/Views/Shared/Admin.cshtml";
 }
 
-<h1>Details</h1>
+<div class="container mt-4">
+    <h1 class="text-primary mb-4">Chi tiết thuốc</h1>
 
-<div>
-    <h4>Medicine</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Name)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Name)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Description)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Description)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Manufacturer)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Manufacturer)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Price)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Price)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.CostPrice)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.CostPrice)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Stock)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Stock)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.ExpiryDate)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.ExpiryDate)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Usage)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Usage)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Image)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Image)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Category)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Category.CategoryId)
-        </dd>
-    </dl>
+    <div class="card shadow">
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3 font-weight-bold"><i class="fas fa-pills mr-2"></i> Tên thuốc</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Name)</dd>
+
+                <dt class="col-sm-3 font-weight-bold"><i class="fas fa-file-alt mr-2"></i> Mô tả</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Description)</dd>
+
+                <dt class="col-sm-3 font-weight-bold"><i class="fas fa-industry mr-2"></i> Nhà sản xuất</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Manufacturer)</dd>
+
+                <dt class="col-sm-3 font-weight-bold"><i class="fas fa-dollar-sign mr-2"></i> Giá bán</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Price)</dd>
+
+                <dt class="col-sm-3 font-weight-bold"><i class="fas fa-dollar-sign mr-2"></i> Giá nhập</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.CostPrice)</dd>
+
+                <dt class="col-sm-3 font-weight-bold"><i class="fas fa-warehouse mr-2"></i> Tồn kho</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Stock)</dd>
+
+                <dt class="col-sm-3 font-weight-bold"><i class="fas fa-calendar-alt mr-2"></i> Hạn sử dụng</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.ExpiryDate)</dd>
+
+                <dt class="col-sm-3 font-weight-bold"><i class="fas fa-prescription-bottle-alt mr-2"></i> Cách dùng</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Usage)</dd>
+
+                <dt class="col-sm-3 font-weight-bold"><i class="fas fa-image mr-2"></i> Hình ảnh</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Image)</dd>
+
+                <dt class="col-sm-3 font-weight-bold"><i class="fas fa-list-ul mr-2"></i> Danh mục</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Category.CategoryId)</dd>
+            </dl>
+        </div>
+    </div>
+
+    <div class="mt-4">
+        <a asp-action="Edit" asp-route-id="@Model?.MedicineId" class="btn btn-primary"><i class="fas fa-edit mr-2"></i> Chỉnh sửa</a>
+        <a asp-action="Index" class="btn btn-secondary"><i class="fas fa-arrow-left mr-2"></i> Quay lại danh sách</a>
+    </div>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.MedicineId">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<style>
+    .text-primary {
+        color: #6541e1 !important;
+    }
+
+    .btn-primary {
+        background-color: #6541e1;
+        border-color: #6541e1;
+    }
+
+        .btn-primary:hover {
+            background-color: #509c2f;
+            border-color: #509c2f;
+        }
+
+    .btn-secondary {
+        background-color: #fff;
+        border-color: #000;
+        color: #000;
+    }
+
+        .btn-secondary:hover {
+            background-color: #eee;
+        }
+
+    .card {
+        border: 1px solid #ddd;
+    }
+</style>

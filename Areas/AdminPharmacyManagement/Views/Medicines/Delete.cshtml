@@ -1,82 +1,87 @@
 ﻿@model PharmacyManagement.Models.Medicine
 
 @{
-    ViewData["Title"] = "Delete";
+    ViewData["Title"] = "Xóa thuốc";
     Layout = "~/Areas/AdminPharmacyManagement/Views/Shared/Admin.cshtml";
 }
 
-<h1>Delete</h1>
+<div class="container mt-4">
+    <h1 class="text-danger mb-4"><i class="fas fa-trash-alt mr-2"></i> Xóa thuốc</h1>
 
-<h3>Are you sure you want to delete this?</h3>
-<div>
-    <h4>Medicine</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Name)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Name)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Description)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Description)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Manufacturer)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Manufacturer)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Price)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Price)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.CostPrice)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.CostPrice)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Stock)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Stock)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.ExpiryDate)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.ExpiryDate)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Usage)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Usage)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Image)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Image)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Category)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Category.CategoryId)
-        </dd>
-    </dl>
-    
-    <form asp-action="Delete">
-        <input type="hidden" asp-for="MedicineId" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
-    </form>
+    <div class="alert alert-danger" role="alert">
+        Bạn có chắc chắn muốn xóa thuốc này?
+    </div>
+
+    <div class="card shadow">
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3 font-weight-bold"><i class="fas fa-pills mr-2"></i> Tên thuốc</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Name)</dd>
+
+                <dt class="col-sm-3 font-weight-bold"><i class="fas fa-file-alt mr-2"></i> Mô tả</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Description)</dd>
+
+                <dt class="col-sm-3 font-weight-bold"><i class="fas fa-industry mr-2"></i> Nhà sản xuất</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Manufacturer)</dd>
+
+                <dt class="col-sm-3 font-weight-bold"><i class="fas fa-dollar-sign mr-2"></i> Giá bán</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Price)</dd>
+
+                <dt class="col-sm-3 font-weight-bold"><i class="fas fa-dollar-sign mr-2"></i> Giá nhập</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.CostPrice)</dd>
+
+                <dt class="col-sm-3 font-weight-bold"><i class="fas fa-warehouse mr-2"></i> Tồn kho</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Stock)</dd>
+
+                <dt class="col-sm-3 font-weight-bold"><i class="fas fa-calendar-alt mr-2"></i> Hạn sử dụng</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.ExpiryDate)</dd>
+
+                <dt class="col-sm-3 font-weight-bold"><i class="fas fa-prescription-bottle-alt mr-2"></i> Cách dùng</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Usage)</dd>
+
+                <dt class="col-sm-3 font-weight-bold"><i class="fas fa-image mr-2"></i> Hình ảnh</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Image)</dd>
+
+                <dt class="col-sm-3 font-weight-bold"><i class="fas fa-list-ul mr-2"></i> Danh mục</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Category.CategoryId)</dd>
+            </dl>
+
+            <form asp-action="Delete" class="mt-4">
+                <input type="hidden" asp-for="MedicineId" />
+                <button type="submit" class="btn btn-danger"><i class="fas fa-trash mr-2"></i> Xóa</button>
+                <a asp-action="Index" class="btn btn-secondary"><i class="fas fa-arrow-left mr-2"></i> Quay lại danh sách</a>
+            </form>
+        </div>
+    </div>
 </div>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<style>
+    .text-danger {
+        color: #dc3545 !important;
+    }
+
+    .btn-danger {
+        background-color: #dc3545;
+        border-color: #dc3545;
+    }
+
+        .btn-danger:hover {
+            background-color: #c82333;
+            border-color: #c82333;
+        }
+
+    .btn-secondary {
+        background-color: #fff;
+        border-color: #000;
+        color: #000;
+    }
+
+        .btn-secondary:hover {
+            background-color: #eee;
+        }
+
+    .card {
+        border: 1px solid #ddd;
+    }
+</style>

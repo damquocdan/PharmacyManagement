@@ -1,49 +1,67 @@
 ﻿@model PharmacyManagement.Models.Order
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Chi tiết đơn hàng";
     Layout = "~/Areas/AdminPharmacyManagement/Views/Shared/Admin.cshtml";
 }
 
-<h1>Details</h1>
+<div class="container mt-4">
+    <h1 class="text-primary mb-4">Chi tiết đơn hàng</h1>
 
-<div>
-    <h4>Order</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.OrderDate)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.OrderDate)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Status)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Status)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.TotalAmount)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.TotalAmount)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Customer)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Customer.CustomerId)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Employee)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Employee.EmployeeId)
-        </dd>
-    </dl>
+    <div class="card shadow">
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3 font-weight-bold"><i class="fas fa-calendar-alt mr-2"></i> Ngày đặt hàng</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.OrderDate)</dd>
+
+                <dt class="col-sm-3 font-weight-bold"><i class="fas fa-info-circle mr-2"></i> Trạng thái</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Status)</dd>
+
+                <dt class="col-sm-3 font-weight-bold"><i class="fas fa-dollar-sign mr-2"></i> Tổng tiền</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.TotalAmount)</dd>
+
+                <dt class="col-sm-3 font-weight-bold"><i class="fas fa-user mr-2"></i> Khách hàng</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Customer.CustomerId)</dd>
+
+                <dt class="col-sm-3 font-weight-bold"><i class="fas fa-user-md mr-2"></i> Nhân viên</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Employee.EmployeeId)</dd>
+            </dl>
+        </div>
+    </div>
+
+    <div class="mt-4">
+        <a asp-action="Edit" asp-route-id="@Model?.OrderId" class="btn btn-primary"><i class="fas fa-edit mr-2"></i> Chỉnh sửa</a>
+        <a asp-action="Index" class="btn btn-secondary"><i class="fas fa-arrow-left mr-2"></i> Quay lại danh sách</a>
+    </div>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.OrderId">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<style>
+    .text-primary {
+        color: #6541e1 !important;
+    }
+
+    .btn-primary {
+        background-color: #6541e1;
+        border-color: #6541e1;
+    }
+
+        .btn-primary:hover {
+            background-color: #509c2f;
+            border-color: #509c2f;
+        }
+
+    .btn-secondary {
+        background-color: #fff;
+        border-color: #000;
+        color: #000;
+    }
+
+        .btn-secondary:hover {
+            background-color: #eee;
+        }
+
+    .card {
+        border: 1px solid #ddd;
+    }
+</style>

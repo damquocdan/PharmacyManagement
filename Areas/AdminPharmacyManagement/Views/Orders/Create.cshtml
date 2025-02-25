@@ -1,42 +1,76 @@
 ﻿@model PharmacyManagement.Models.Order
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Thêm đơn hàng";
     Layout = "~/Areas/AdminPharmacyManagement/Views/Shared/Admin.cshtml";
 }
 
-<h1>Create</h1>
+<div class="container mt-4">
+    <h1 class="text-primary mb-4">Thêm đơn hàng</h1>
 
-<h4>Order</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="CustomerId" class="control-label"></label>
-                <select asp-for="CustomerId" class ="form-control" asp-items="ViewBag.CustomerId"></select>
-            </div>
-            <div class="form-group">
-                <label asp-for="EmployeeId" class="control-label"></label>
-                <select asp-for="EmployeeId" class ="form-control" asp-items="ViewBag.EmployeeId"></select>
-            </div>
-            <div class="form-group">
-                <label asp-for="TotalAmount" class="control-label"></label>
-                <input asp-for="TotalAmount" class="form-control" />
-                <span asp-validation-for="TotalAmount" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
+    <div class="card shadow">
+        <div class="card-body">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="form-group">
+                    <label asp-for="CustomerId" class="control-label font-weight-bold"><i class="fas fa-user mr-2"></i> Khách hàng</label>
+                    <select asp-for="CustomerId" class="form-control" asp-items="ViewBag.CustomerId"></select>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="EmployeeId" class="control-label font-weight-bold"><i class="fas fa-user-md mr-2"></i> Nhân viên</label>
+                    <select asp-for="EmployeeId" class="form-control" asp-items="ViewBag.EmployeeId"></select>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="TotalAmount" class="control-label font-weight-bold"><i class="fas fa-dollar-sign mr-2"></i> Tổng tiền</label>
+                    <input asp-for="TotalAmount" class="form-control" />
+                    <span asp-validation-for="TotalAmount" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mt-4">
+                    <button type="submit" class="btn btn-primary"><i class="fas fa-save mr-2"></i> Thêm đơn hàng</button>
+                    <a asp-action="Index" class="btn btn-secondary"><i class="fas fa-arrow-left mr-2"></i> Quay lại danh sách</a>
+                </div>
+            </form>
+        </div>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<style>
+    .text-primary {
+        color: #6541e1 !important;
+    }
+
+    .btn-primary {
+        background-color: #6541e1;
+        border-color: #6541e1;
+    }
+
+        .btn-primary:hover {
+            background-color: #509c2f;
+            border-color: #509c2f;
+        }
+
+    .btn-secondary {
+        background-color: #fff;
+        border-color: #000;
+        color: #000;
+    }
+
+        .btn-secondary:hover {
+            background-color: #eee;
+        }
+
+    .card {
+        border: 1px solid #ddd;
+    }
+</style>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

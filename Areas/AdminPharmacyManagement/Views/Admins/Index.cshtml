@@ -1,78 +1,94 @@
 ﻿@model IEnumerable<PharmacyManagement.Models.Admin>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Danh Sách Admin";
     Layout = "~/Areas/AdminPharmacyManagement/Views/Shared/Admin.cshtml";
 }
 
-<h1>Index</h1>
+<h1 class="mb-4" style="color: #6541e1;"><i class="fas fa-users me-2"></i> Danh Sách Admin</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create" class="btn btn-primary" style="background-color: #6541e1; border: none;">
+        <i class="fas fa-user-plus me-2"></i> Thêm Mới Admin
+    </a>
 </p>
-<table class="table">
-    <thead>
+
+<table class="table table-bordered table-hover shadow-sm">
+    <thead class="table-dark" style="background-color: #6541e1; color: #fff;">
         <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Username)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Password)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Name)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Email)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Phone)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Role)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CreatedAt)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.UpdatedAt)
-            </th>
-            <th></th>
+            <th><i class="fas fa-user me-2"></i> Tên Đăng Nhập</th>
+            <th><i class="fas fa-lock me-2"></i> Mật Khẩu</th>
+            <th><i class="fas fa-id-card me-2"></i> Họ Tên</th>
+            <th><i class="fas fa-envelope me-2"></i> Email</th>
+            <th><i class="fas fa-phone me-2"></i> Số Điện Thoại</th>
+            <th><i class="fas fa-user-tag me-2"></i> Vai Trò</th>
+            <th><i class="fas fa-calendar-plus me-2"></i> Ngày Tạo</th>
+            <th><i class="fas fa-calendar-alt me-2"></i> Ngày Cập Nhật</th>
+            <th><i class="fas fa-cogs me-2"></i> Hành Động</th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Username)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Password)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Email)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Phone)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Role)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CreatedAt)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.UpdatedAt)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.AdminId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.AdminId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.AdminId">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Username)</td>
+                <td>@Html.DisplayFor(modelItem => item.Password)</td>
+                <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                <td>@Html.DisplayFor(modelItem => item.Email)</td>
+                <td>@Html.DisplayFor(modelItem => item.Phone)</td>
+                <td>@Html.DisplayFor(modelItem => item.Role)</td>
+                <td>@Html.DisplayFor(modelItem => item.CreatedAt)</td>
+                <td>@Html.DisplayFor(modelItem => item.UpdatedAt)</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.AdminId" class="btn btn-sm btn-warning me-1" style="color: #fff; background-color: #6541e1; border: none;">
+                        <i class="fas fa-edit"></i> Sửa
+                    </a>
+                    <a asp-action="Details" asp-route-id="@item.AdminId" class="btn btn-sm btn-info me-1" style="background-color: #509c2f; border: none;">
+                        <i class="fas fa-info-circle"></i> Chi Tiết
+                    </a>
+                    <a asp-action="Delete" asp-route-id="@item.AdminId" class="btn btn-sm btn-danger" style="background-color: #dc3545; border: none;">
+                        <i class="fas fa-trash-alt"></i> Xóa
+                    </a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
+
+<!-- Custom CSS -->
+<style>
+    .table {
+        background-color: #fff;
+        border: 1px solid #6541e1;
+    }
+
+    .table-hover tbody tr:hover {
+        background-color: #f4f6f9;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-primary:hover {
+        background-color: #509c2f;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-warning:hover {
+        background-color: #509c2f;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-info:hover {
+        background-color: #6541e1;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-danger:hover {
+        background-color: #c82333;
+        transition: background-color 0.3s ease;
+    }
+
+    th, td {
+        vertical-align: middle;
+        text-align: center;
+    }
+</style>
