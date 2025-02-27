@@ -297,8 +297,48 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "E:\\DATN\\PharmacyManagement\\wwwroot\\images\\banner1.png",
+      "PackagePath": "staticwebassets\\images\\banner1.png"
+    },
+    {
+      "Id": "E:\\DATN\\PharmacyManagement\\wwwroot\\images\\banner2.png",
+      "PackagePath": "staticwebassets\\images\\banner2.png"
+    },
+    {
+      "Id": "E:\\DATN\\PharmacyManagement\\wwwroot\\images\\banner3.png",
+      "PackagePath": "staticwebassets\\images\\banner3.png"
+    },
+    {
+      "Id": "E:\\DATN\\PharmacyManagement\\wwwroot\\images\\doctor.png",
+      "PackagePath": "staticwebassets\\images\\doctor.png"
+    },
+    {
+      "Id": "E:\\DATN\\PharmacyManagement\\wwwroot\\images\\doctor1.png",
+      "PackagePath": "staticwebassets\\images\\doctor1.png"
+    },
+    {
       "Id": "E:\\DATN\\PharmacyManagement\\wwwroot\\images\\logo.png",
       "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "E:\\DATN\\PharmacyManagement\\wwwroot\\images\\medicines\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\medicines\\1.jpg"
+    },
+    {
+      "Id": "E:\\DATN\\PharmacyManagement\\wwwroot\\images\\medicines\\dan.jpg",
+      "PackagePath": "staticwebassets\\images\\medicines\\dan.jpg"
+    },
+    {
+      "Id": "E:\\DATN\\PharmacyManagement\\wwwroot\\images\\medicines\\tranducdat.jpg",
+      "PackagePath": "staticwebassets\\images\\medicines\\tranducdat.jpg"
+    },
+    {
+      "Id": "E:\\DATN\\PharmacyManagement\\wwwroot\\images\\medicines\\z2483540665363_d8cd26289e6027d75bb9138ac021d47b.jpg",
+      "PackagePath": "staticwebassets\\images\\medicines\\z2483540665363_d8cd26289e6027d75bb9138ac021d47b.jpg"
+    },
+    {
+      "Id": "E:\\DATN\\PharmacyManagement\\wwwroot\\images\\nurse.png",
+      "PackagePath": "staticwebassets\\images\\nurse.png"
     },
     {
       "Id": "E:\\DATN\\PharmacyManagement\\wwwroot\\js\\site.js",

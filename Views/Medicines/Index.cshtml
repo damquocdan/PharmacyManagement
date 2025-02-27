@@ -1,0 +1,182 @@
+﻿@model IEnumerable<PharmacyManagement.Models.Medicine>
+
+@{
+    ViewData["Title"] = "Danh Sách Thuốc";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    /* Hero Section */
+    .hero-section {
+        background-color: #e8f5e9; /* Light green background */
+        padding: 2rem 1rem;
+        margin-bottom: 2rem;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+        .hero-section h1 {
+            color: #2e7d32; /* Dark green */
+            font-weight: bold;
+        }
+
+        .hero-section p {
+            font-size: 1.2rem;
+            color: #555;
+        }
+
+    /* Medicine Catalog */
+    .container {
+        padding: 1rem;
+    }
+
+    .card {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+    .card-img-top {
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #2e7d32; /* Dark green */
+    }
+
+    .card-text {
+        font-size: 0.9rem;
+        color: #666;
+    }
+
+    .btn {
+        font-size: 0.85rem;
+    }
+
+    .btn-primary {
+        background-color: #2e7d32; /* Dark green */
+        border: none;
+    }
+
+        .btn-primary:hover {
+            background-color: #1b5e20;
+        }
+
+    /* Search Bar */
+    .search-bar {
+        margin: 1rem 0;
+        text-align: center;
+    }
+
+        .search-bar input[type="text"] {
+            width: 50%;
+            padding: 0.5rem;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .search-bar button {
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+            color: #fff;
+            background-color: #2e7d32; /* Dark green */
+            border: none;
+            border-radius: 5px;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+
+            .search-bar button:hover {
+                background-color: #1b5e20;
+            }
+</style>
+
+<div class="search-bar">
+    <form method="get" asp-action="Index" asp-controller="Medicines">
+        <input type="text" name="searchTerm" placeholder="Tìm kiếm thuốc ,triệu chứng ..." value="@ViewData["SearchTerm"]" />
+        <button type="submit">Tìm kiếm</button>
+    </form>
+</div>
+
+<div class="hero-section">
+    <h1 class="text-center">Chào Mừng Đến Với Hiệu Thuốc Trực Tuyến!</h1>
+    <p class="text-center">Cung cấp các loại thuốc và sản phẩm chăm sóc sức khỏe chất lượng cao.</p>
+</div>
+
+<div class="container mt-4">
+    <h2 class="text-center">Danh Sách Thuốc</h2>
+    <div class="row mt-4">
+        @if (Model != null && Model.Any())
+        {
+            foreach (var medicine in Model)
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="@medicine.Image" class="card-img-top" alt="@medicine.Name">
+                        <div class="card-body">
+                            <h5 class="card-title">@medicine.Name</h5>
+                            <p class="card-text">@medicine.Description</p>
+                            <p class="card-text text-primary fw-bold">Giá: @medicine.Price.ToString("C")</p>
+                            <div class="d-flex justify-content-between">
+                                <a href="javascript:void(0)" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#medicineDetailsModal" data-id="@medicine.MedicineId">Chi tiết</a>
+                                <a asp-controller="Carts" asp-action="Add" asp-route-id="@medicine.MedicineId" asp-route-customerId="@Context.Session.GetInt32("CustomerId")" class="btn btn-primary btn-sm">Thêm vào giỏ</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <p class="text-center">Không có thuốc nào để hiển thị.</p>
+        }
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<div class="modal fade" id="medicineDetailsModal" tabindex="-1" role="dialog" aria-labelledby="medicineDetailsModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="medicineDetailsModalLabel">Chi tiết Thuốc</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div id="medicineDetailsContainer">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $('#medicineDetailsModal').on('show.bs.modal', function (e) {
+        var medicineId = $(e.relatedTarget).data('id');
+        $.ajax({
+            url: '@Url.Action("Details", "Medicines")',
+            type: 'GET',
+            data: { id: medicineId },
+            success: function (data) {
+                $('#medicineDetailsContainer').html(data);
+            },
+            error: function (xhr, status, error) {
+                console.error('Error loading medicine details: ' + error);
+            }
+        });
+    });
+</script>

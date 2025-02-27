@@ -1,0 +1,184 @@
+﻿@model IEnumerable<PharmacyManagement.Models.Cart>
+
+@{
+    ViewData["Title"] = "Giỏ hàng";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .cart-container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .cart-title {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 2rem;
+        color: #6541e1;
+        font-weight: bold;
+    }
+
+    .cart-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        border-bottom: 1px solid #eee;
+    }
+
+        .cart-item:last-child {
+            border-bottom: none;
+        }
+
+    .cart-item-details {
+        display: flex;
+        align-items: center;
+    }
+
+    .cart-item-image {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        margin-right: 20px;
+        border-radius: 5px;
+    }
+
+    .cart-item-info {
+        flex-grow: 1;
+    }
+
+    .cart-item-actions {
+        display: flex;
+        align-items: center;
+    }
+
+    .quantity-input {
+        width: 60px;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-right: 10px;
+    }
+
+    .remove-item-btn {
+        background-color: #d9534f;
+        color: #fff;
+        border: none;
+        padding: 8px 12px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .total-price {
+        text-align: right;
+        margin-top: 20px;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    .checkout-btn {
+        display: block;
+        width: 200px;
+        margin: 20px auto;
+        padding: 10px 20px;
+        background-color: #6541e1;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        font-size: 1.2rem;
+        cursor: pointer;
+    }
+
+        .checkout-btn:hover {
+            background-color: #509c2f;
+        }
+</style>
+
+<div class="cart-container">
+    <h1 class="cart-title"><i class="fas fa-shopping-cart"></i> Giỏ hàng của bạn</h1>
+
+    @if (Model != null && Model.Any())
+    {
+        @foreach (var item in Model)
+        {
+            <div class="cart-item">
+                <div class="cart-item-details">
+                    <img src="@item.Medicine.Image" alt="@item.Medicine.Name" class="cart-item-image" />
+                    <div class="cart-item-info">
+                        <h3>@item.Medicine.Name</h3>
+                        <p>Giá: @item.Medicine.Price.ToString("C")</p>
+                    </div>
+                </div>
+                <div class="cart-item-actions">
+                    <input type="number" class="quantity-input" value="@item.Quantity" min="1" data-cart-id="@item.CartId" />
+                    <button class="remove-item-btn" data-cart-id="@item.CartId"><i class="fas fa-trash-alt"></i> Xóa</button>
+                </div>
+            </div>
+        }
+
+        <div class="total-price">
+            Tổng tiền: @Model.Sum(item => item.Medicine.Price * item.Quantity).ToString("C")
+        </div>
+
+        <a asp-controller="Orders" asp-action="ConfirmAddress" class="checkout-btn"><i class="fas fa-check-circle"></i> Đặt hàng</a>
+    }
+    else
+    {
+        <p class="text-center">Giỏ hàng của bạn đang trống.</p>
+    }
+</div>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const quantityInputs = document.querySelectorAll('.quantity-input');
+        const removeItemBtns = document.querySelectorAll('.remove-item-btn');
+
+        quantityInputs.forEach(input => {
+            input.addEventListener('change', function () {
+                const cartId = this.getAttribute('data-cart-id');
+                const quantity = this.value;
+                updateCartItem(cartId, quantity);
+            });
+        });
+
+        removeItemBtns.forEach(button => {
+            button.addEventListener('click', function () {
+                const cartId = this.getAttribute('data-cart-id');
+                removeCartItem(cartId);
+            });
+        });
+
+        function updateCartItem(cartId, quantity) {
+            fetch(`/Carts/UpdateQuantity?cartId=${cartId}&quantity=${quantity}`, {
+                method: 'POST'
+            })
+            .then(response => {
+                if (response.ok) {
+                    location.reload();
+                } else {
+                    alert('Lỗi khi cập nhật giỏ hàng.');
+                }
+            });
+        }
+
+        function removeCartItem(cartId) {
+            fetch(`/Carts/DeleteConfirmation?id=${cartId}`, {
+                method: 'POST'
+            })
+            .then(response => {
+                if (response.ok) {
+                    location.reload();
+                } else {
+                    alert('Lỗi khi xóa sản phẩm khỏi giỏ hàng.');
+                }
+            });
+        }
+    });
+</script>

@@ -36,10 +36,10 @@
                 <dd class="col-sm-9">@Html.DisplayFor(model => model.Usage)</dd>
 
                 <dt class="col-sm-3 font-weight-bold"><i class="fas fa-image mr-2"></i> Hình ảnh</dt>
-                <dd class="col-sm-9">@Html.DisplayFor(model => model.Image)</dd>
+                <dd class="col-sm-9"><img src=" @Html.DisplayFor(model => model.Image)" width="350px" height="350px" /></dd>
 
                 <dt class="col-sm-3 font-weight-bold"><i class="fas fa-list-ul mr-2"></i> Danh mục</dt>
-                <dd class="col-sm-9">@Html.DisplayFor(model => model.Category.CategoryId)</dd>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Category.CategoryName)</dd>
             </dl>
         </div>
     </div>

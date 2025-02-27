@@ -1,8 +1,356 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿@model IEnumerable<PharmacyManagement.Models.Medicine>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chủ - Hiệu Thuốc</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            background-color: #e8f5e9; /* Light green background */
+            font-family: Arial, sans-serif;
+        }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+        h1 {
+            color: #2e7d32; /* Dark green */
+        }
+
+        p.text-secondary {
+            color: #6c757d;
+        }
+
+        .card {
+            border: 1px solid #2e7d32;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-body {
+            background-color: #ffffff;
+            border-top: 1px solid #2e7d32;
+        }
+
+        .card-title {
+            color: #2e7d32;
+            font-weight: bold;
+        }
+
+        .card-text {
+            color: #555;
+        }
+
+        .btn-outline-primary {
+            border-color: #2e7d32;
+            color: #2e7d32;
+        }
+
+            .btn-outline-primary:hover {
+                background-color: #2e7d32;
+                color: white;
+            }
+
+        .btn-primary {
+            background-color: #2e7d32;
+            border-color: #2e7d32;
+        }
+
+            .btn-primary:hover {
+                background-color: #1b5e20;
+                border-color: #1b5e20;
+            }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #2e7d32;
+            color: white;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            color: #4caf50;
+            margin-bottom: 20px;
+        }
+
+        p {
+            line-height: 1.6;
+            font-size: 1.2rem;
+            color: #555;
+        }
+
+        section {
+            margin: 50px auto;
+            max-width: 800px;
+            opacity: 0;
+            transform: translateY(50px);
+            transition: all 1s ease;
+        }
+
+            section.visible {
+                opacity: 1;
+                transform: translateY(0);
+            }
+
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .feature {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            width: calc(33.333% - 40px);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+            .feature img {
+                max-width: 100%;
+                height: auto;
+                border-radius: 8px;
+            }
+
+            .feature h3 {
+                margin-top: 15px;
+                font-size: 1.2rem;
+                color: #4caf50;
+            }
+
+        .team .member {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .team img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+
+        .testimonials .testimonial {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .pricing table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+            .pricing table th, .pricing table td {
+                border: 1px solid #ddd;
+                padding: 10px;
+                text-align: center;
+            }
+    </style>
+</head>
+<body>
+    <div class="hero-section">
+        <h1 class="text-center">Chào Mừng Bạn Đến Với Hiệu Thuốc!</h1>
+        <p class="text-center">Cung cấp các loại thuốc và sản phẩm chăm sóc sức khỏe chất lượng cao.</p>
+    </div>
+
+    <div id="featuredMedicinesCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="~/images/banner1.png" alt="Featured Medicine 1" width="100%" style="height:400px">
+            </div>
+            <div class="carousel-item">
+                <img src="~/images/banner2.png" alt="Featured Medicine 2" width="100%" style="height:400px">
+            </div>
+            <div class="carousel-item">
+                <img src="~/images/banner3.png" alt="Featured Medicine 3" width="100%" style="height:400px">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#featuredMedicinesCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a class="carousel-control-next" href="#featuredMedicinesCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <div class="container mt-4">
+        <h2 class="text-center">Sản Phẩm Của Chúng Tôi</h2>
+        <div class="row mt-4">
+            @if (Model != null && Model.Any())
+            {
+                foreach (var medicine in Model)
+                {
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="@medicine.Image" class="card-img-top" alt="@medicine.Name" height="346px">
+                            <div class="card-body">
+                                <h5 class="card-title">@medicine.Name</h5>
+                                <p class="card-text">@medicine.Description</p>
+                                <p class="card-text text-primary fw-bold">Giá: @medicine.Price.ToString("C")</p>
+                                <div class="d-flex justify-content-between">
+                                    <a href="javascript:void(0)" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#medicineDetailsModal" data-id="@medicine.MedicineId">Chi tiết</a>
+                                    <a asp-controller="Carts" asp-action="Add" asp-route-id="@medicine.MedicineId" asp-route-customerId="@Context.Session.GetInt32("CustomerId")" class="btn btn-primary btn-sm">Thêm vào giỏ</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <p class="text-center">Không có thuốc nào để hiển thị.</p>
+            }
+            <p class="text-center">
+                <a asp-controller="Medicines" asp-action="Index">
+                    Xem thêm...
+                </a>
+            </p>
+        </div>
+    </div>
+    <div class="container">
+        <section class="intro" id="intro">
+            <h2 class="section-title text-center">Về Chúng Tôi</h2>
+            <p class="text-center">
+                Hiệu thuốc của chúng tôi cam kết cung cấp các sản phẩm thuốc và dịch vụ chăm sóc sức khỏe tốt nhất cho cộng đồng.
+            </p>
+        </section>
+
+        <section class="history" id="history">
+            <h2 class="section-title text-center">Lịch Sử Hình Thành</h2>
+            <p class="text-center">
+                Hiệu thuốc được thành lập từ năm 2005, với mong muốn mang lại sức khỏe tốt nhất cho mọi người.
+            </p>
+        </section>
+
+        <section class="vision" id="vision">
+            <h2 class="section-title text-center">Tầm Nhìn và Sứ Mệnh</h2>
+            <p class="text-center">
+                Chúng tôi hướng đến việc trở thành hiệu thuốc hàng đầu, mang đến sự an tâm và hài lòng cho khách hàng.
+            </p>
+        </section>
+
+        <section class="team">
+            <h2 class="section-title text-center">Đội Ngũ Của Chúng Tôi</h2>
+            <div class="features">
+                <div class="feature">
+                    <img src="~/images/doctor.png" alt="Dược sĩ 1">
+                    <h3>Nguyễn Văn An</h3>
+                    <p>Dược sĩ chính</p>
+                </div>
+                <div class="feature">
+                    <img src="~/images/doctor1.png" alt="Dược sĩ 2">
+                    <h3>Trần Thị Bình</h3>
+                    <p>Dược sĩ tư vấn</p>
+                </div>
+                <div class="feature">
+                    <img src="~/images/nurse.png" alt="Nhân viên 3">
+                    <h3>Lê Văn Cường</h3>
+                    <p>Nhân viên bán hàng</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <h2 class="section-title text-center">Cảm Nhận Khách Hàng</h2>
+            <div class="testimonial">
+                <p>
+                    <strong>Chị Hoa:</strong> "Thuốc ở đây chất lượng, dược sĩ tư vấn nhiệt tình. Tôi rất hài lòng!"
+                </p>
+            </div>
+            <div class="testimonial">
+                <p>
+                    <strong>Anh Dũng:</strong> "Hiệu thuốc uy tín, giá cả hợp lý. Tôi sẽ giới thiệu cho bạn bè."
+                </p>
+            </div>
+        </section>
+
+        <section class="pricing">
+            <h2 class="section-title text-center">Bảng Giá Sản Phẩm</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Loại Thuốc</th>
+                        <th>Đóng Gói</th>
+                        <th>Giá</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Paracetamol</td>
+                        <td>Vỉ 10 viên</td>
+                        <td>20.000 VND</td>
+                    </tr>
+                    <tr>
+                        <td>Vitamin C</td>
+                        <td>Lọ 30 viên</td>
+                        <td>50.000 VND</td>
+                    </tr>
+                    <tr>
+                        <td>Thuốc ho</td>
+                        <td>Chai 100ml</td>
+                        <td>40.000 VND</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+</body>
+</html>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<div class="modal fade" id="medicineDetailsModal" tabindex="-1" role="dialog" aria-labelledby="medicineDetailsModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="medicineDetailsModalLabel">Chi tiết Thuốc</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div id="medicineDetailsContainer">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+            </div>
+        </div>
+    </div>
 </div>
+
+<script>
+    $('#medicineDetailsModal').on('show.bs.modal', function (e) {
+        var medicineId = $(e.relatedTarget).data('id');
+        $.ajax({
+            url: '@Url.Action("Details", "Medicines")',
+            type: 'GET',
+            data: { id: medicineId },
+            success: function (data) {
+                $('#medicineDetailsContainer').html(data);
+            },
+            error: function (xhr, status, error) {
+                console.error('Error loading medicine details: ' + error);
+            }
+        });
+    });
+
+    const sections = document.querySelectorAll("section");
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+            }
+        });
+    });
+
+    sections.forEach(section => observer.observe(section));
+</script>

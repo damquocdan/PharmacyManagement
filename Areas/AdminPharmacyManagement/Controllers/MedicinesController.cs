@@ -48,7 +48,7 @@ namespace PharmacyManagement.Areas.AdminPharmacyManagement.Controllers
         // GET: AdminPharmacyManagement/Medicines/Create
         public IActionResult Create()
         {
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryId");
+            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryName");
             return View();
         }
 
@@ -61,6 +61,18 @@ namespace PharmacyManagement.Areas.AdminPharmacyManagement.Controllers
         {
             if (ModelState.IsValid)
             {
+                var files = HttpContext.Request.Form.Files;
+                if (files.Any() && files[0].Length > 0)
+                {
+                    var file = files[0];
+                    var fileName = file.FileName;
+                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\images\\medicines", fileName);
+                    using (var stream = new FileStream(path, FileMode.Create))
+                    {
+                        file.CopyTo(stream);
+                        medicine.Image = "/images/medicines/" + fileName;
+                    }
+                }
                 _context.Add(medicine);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -102,6 +114,18 @@ namespace PharmacyManagement.Areas.AdminPharmacyManagement.Controllers
             {
                 try
                 {
+                    var files = HttpContext.Request.Form.Files;
+                    if (files.Any() && files[0].Length > 0)
+                    {
+                        var file = files[0];
+                        var fileName = file.FileName;
+                        var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\images\\medicines", fileName);
+                        using (var stream = new FileStream(path, FileMode.Create))
+                        {
+                            file.CopyTo(stream);
+                            medicine.Image = "/images/medicines/" + fileName;
+                        }
+                    }
                     _context.Update(medicine);
                     await _context.SaveChangesAsync();
                 }

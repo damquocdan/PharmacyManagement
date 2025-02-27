@@ -1,5 +1,6 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using PharmacyManagement.Models;
 
 namespace PharmacyManagement.Controllers
@@ -7,15 +8,17 @@ namespace PharmacyManagement.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        private readonly PharmacyManagementContext _context;
+        public HomeController(ILogger<HomeController> logger, PharmacyManagementContext context)
         {
             _logger = logger;
+            _context = context;
         }
 
         public IActionResult Index()
         {
-            return View();
+            var medicine = _context.Medicines.OrderByDescending(c => c.MedicineId).Take(3).ToList();
+            return View(medicine);
         }
 
         public IActionResult Privacy()

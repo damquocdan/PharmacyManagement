@@ -23,7 +23,7 @@
 
   <ItemGroup>
     <Folder Include="Areas\AdminPharmacyManagement\Data\" />
-    <Folder Include="wwwroot\images\" />
+    <Folder Include="wwwroot\images\medicines\" />
   </ItemGroup>
 
 </Project>

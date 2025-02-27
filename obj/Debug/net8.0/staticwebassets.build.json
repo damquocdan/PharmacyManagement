@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EhvPv0KmwUFeOm9ebxn2uwwzXtlST45yH8xJx62qV/o=",
+  "Hash": "ykwQG9jvuPGlEybaeMtXKX74pnwp3r7tV/ZnY1lDtM8=",
   "Source": "PharmacyManagement",
   "BasePath": "_content/PharmacyManagement",
   "Mode": "Default",
@@ -1592,6 +1592,111 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "E:\\DATN\\PharmacyManagement\\wwwroot\\images\\banner1.png",
+      "SourceId": "PharmacyManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\DATN\\PharmacyManagement\\wwwroot\\",
+      "BasePath": "_content/PharmacyManagement",
+      "RelativePath": "images/banner1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qwjnaww713",
+      "Integrity": "ik44uozRVIAh17YbQghOAi9B4tcGyt4PwNUOeR7/GSw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\banner1.png"
+    },
+    {
+      "Identity": "E:\\DATN\\PharmacyManagement\\wwwroot\\images\\banner2.png",
+      "SourceId": "PharmacyManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\DATN\\PharmacyManagement\\wwwroot\\",
+      "BasePath": "_content/PharmacyManagement",
+      "RelativePath": "images/banner2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2kgqyrjkr2",
+      "Integrity": "rktoBrLGqiLRWJ2EorNKm+WdXjkK6chS0wCrFGCu1Uk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\banner2.png"
+    },
+    {
+      "Identity": "E:\\DATN\\PharmacyManagement\\wwwroot\\images\\banner3.png",
+      "SourceId": "PharmacyManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\DATN\\PharmacyManagement\\wwwroot\\",
+      "BasePath": "_content/PharmacyManagement",
+      "RelativePath": "images/banner3#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "m4g8w81b1o",
+      "Integrity": "phOMCcjcDQIVN+7PswlQrgDXsfvy9DAFtzqPs08+ZH4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\banner3.png"
+    },
+    {
+      "Identity": "E:\\DATN\\PharmacyManagement\\wwwroot\\images\\doctor.png",
+      "SourceId": "PharmacyManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\DATN\\PharmacyManagement\\wwwroot\\",
+      "BasePath": "_content/PharmacyManagement",
+      "RelativePath": "images/doctor#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "owjuhfzkd4",
+      "Integrity": "SD2iWHcgekoLKv/4l/vf2Ef5rTfECCnJBZIIxQpurBo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\doctor.png"
+    },
+    {
+      "Identity": "E:\\DATN\\PharmacyManagement\\wwwroot\\images\\doctor1.png",
+      "SourceId": "PharmacyManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\DATN\\PharmacyManagement\\wwwroot\\",
+      "BasePath": "_content/PharmacyManagement",
+      "RelativePath": "images/doctor1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "51114cr71i",
+      "Integrity": "eV/qRuhFg1B93PZ8pLZD+EnqdxVphPfRs7TRj6mHLQY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\doctor1.png"
+    },
+    {
       "Identity": "E:\\DATN\\PharmacyManagement\\wwwroot\\images\\logo.png",
       "SourceId": "PharmacyManagement",
       "SourceType": "Discovered",
@@ -1611,6 +1716,111 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\logo.png"
+    },
+    {
+      "Identity": "E:\\DATN\\PharmacyManagement\\wwwroot\\images\\medicines\\1.jpg",
+      "SourceId": "PharmacyManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\DATN\\PharmacyManagement\\wwwroot\\",
+      "BasePath": "_content/PharmacyManagement",
+      "RelativePath": "images/medicines/1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e6676b71j8",
+      "Integrity": "Bp1Od9uEIzZdhZAXRo06w50d4s82gvQx6fccrizJ++o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\medicines\\1.jpg"
+    },
+    {
+      "Identity": "E:\\DATN\\PharmacyManagement\\wwwroot\\images\\medicines\\dan.jpg",
+      "SourceId": "PharmacyManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\DATN\\PharmacyManagement\\wwwroot\\",
+      "BasePath": "_content/PharmacyManagement",
+      "RelativePath": "images/medicines/dan#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5swj0sei4p",
+      "Integrity": "S4P868xGba3ikLZQIcEL1GEtnioeNvZdOepfYJXZHH0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\medicines\\dan.jpg"
+    },
+    {
+      "Identity": "E:\\DATN\\PharmacyManagement\\wwwroot\\images\\medicines\\tranducdat.jpg",
+      "SourceId": "PharmacyManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\DATN\\PharmacyManagement\\wwwroot\\",
+      "BasePath": "_content/PharmacyManagement",
+      "RelativePath": "images/medicines/tranducdat#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g1lpmzg9az",
+      "Integrity": "PEeO0RIkIq72YO7kgPvqykyejUioSkj36HU5DfIMBrs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\medicines\\tranducdat.jpg"
+    },
+    {
+      "Identity": "E:\\DATN\\PharmacyManagement\\wwwroot\\images\\medicines\\z2483540665363_d8cd26289e6027d75bb9138ac021d47b.jpg",
+      "SourceId": "PharmacyManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\DATN\\PharmacyManagement\\wwwroot\\",
+      "BasePath": "_content/PharmacyManagement",
+      "RelativePath": "images/medicines/z2483540665363_d8cd26289e6027d75bb9138ac021d47b#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g8r7k2cikw",
+      "Integrity": "YF4L5GCV8hPKAbXlt089/5qvvS8OD5mO6KKZsMKD94M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\medicines\\z2483540665363_d8cd26289e6027d75bb9138ac021d47b.jpg"
+    },
+    {
+      "Identity": "E:\\DATN\\PharmacyManagement\\wwwroot\\images\\nurse.png",
+      "SourceId": "PharmacyManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\DATN\\PharmacyManagement\\wwwroot\\",
+      "BasePath": "_content/PharmacyManagement",
+      "RelativePath": "images/nurse#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rqxhrgz6xx",
+      "Integrity": "7U9LZ4cKgMT08ktUUt0RmrOevmhttzmrnpF5eiWCZwE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\nurse.png"
     },
     {
       "Identity": "E:\\DATN\\PharmacyManagement\\wwwroot\\js\\site.js",
@@ -8819,6 +9029,416 @@
       ]
     },
     {
+      "Route": "images/banner1.png",
+      "AssetFile": "E:\\DATN\\PharmacyManagement\\wwwroot\\images\\banner1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93263"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ik44uozRVIAh17YbQghOAi9B4tcGyt4PwNUOeR7/GSw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 11:39:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ik44uozRVIAh17YbQghOAi9B4tcGyt4PwNUOeR7/GSw="
+        }
+      ]
+    },
+    {
+      "Route": "images/banner1.qwjnaww713.png",
+      "AssetFile": "E:\\DATN\\PharmacyManagement\\wwwroot\\images\\banner1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93263"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ik44uozRVIAh17YbQghOAi9B4tcGyt4PwNUOeR7/GSw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 11:39:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qwjnaww713"
+        },
+        {
+          "Name": "label",
+          "Value": "images/banner1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ik44uozRVIAh17YbQghOAi9B4tcGyt4PwNUOeR7/GSw="
+        }
+      ]
+    },
+    {
+      "Route": "images/banner2.2kgqyrjkr2.png",
+      "AssetFile": "E:\\DATN\\PharmacyManagement\\wwwroot\\images\\banner2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "111097"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rktoBrLGqiLRWJ2EorNKm+WdXjkK6chS0wCrFGCu1Uk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 11:40:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2kgqyrjkr2"
+        },
+        {
+          "Name": "label",
+          "Value": "images/banner2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rktoBrLGqiLRWJ2EorNKm+WdXjkK6chS0wCrFGCu1Uk="
+        }
+      ]
+    },
+    {
+      "Route": "images/banner2.png",
+      "AssetFile": "E:\\DATN\\PharmacyManagement\\wwwroot\\images\\banner2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "111097"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rktoBrLGqiLRWJ2EorNKm+WdXjkK6chS0wCrFGCu1Uk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 11:40:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rktoBrLGqiLRWJ2EorNKm+WdXjkK6chS0wCrFGCu1Uk="
+        }
+      ]
+    },
+    {
+      "Route": "images/banner3.m4g8w81b1o.png",
+      "AssetFile": "E:\\DATN\\PharmacyManagement\\wwwroot\\images\\banner3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "101546"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"phOMCcjcDQIVN+7PswlQrgDXsfvy9DAFtzqPs08+ZH4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 11:40:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m4g8w81b1o"
+        },
+        {
+          "Name": "label",
+          "Value": "images/banner3.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-phOMCcjcDQIVN+7PswlQrgDXsfvy9DAFtzqPs08+ZH4="
+        }
+      ]
+    },
+    {
+      "Route": "images/banner3.png",
+      "AssetFile": "E:\\DATN\\PharmacyManagement\\wwwroot\\images\\banner3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "101546"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"phOMCcjcDQIVN+7PswlQrgDXsfvy9DAFtzqPs08+ZH4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 11:40:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-phOMCcjcDQIVN+7PswlQrgDXsfvy9DAFtzqPs08+ZH4="
+        }
+      ]
+    },
+    {
+      "Route": "images/doctor.owjuhfzkd4.png",
+      "AssetFile": "E:\\DATN\\PharmacyManagement\\wwwroot\\images\\doctor.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1571017"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SD2iWHcgekoLKv/4l/vf2Ef5rTfECCnJBZIIxQpurBo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 00:50:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "owjuhfzkd4"
+        },
+        {
+          "Name": "label",
+          "Value": "images/doctor.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SD2iWHcgekoLKv/4l/vf2Ef5rTfECCnJBZIIxQpurBo="
+        }
+      ]
+    },
+    {
+      "Route": "images/doctor.png",
+      "AssetFile": "E:\\DATN\\PharmacyManagement\\wwwroot\\images\\doctor.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1571017"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SD2iWHcgekoLKv/4l/vf2Ef5rTfECCnJBZIIxQpurBo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 00:50:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SD2iWHcgekoLKv/4l/vf2Ef5rTfECCnJBZIIxQpurBo="
+        }
+      ]
+    },
+    {
+      "Route": "images/doctor1.51114cr71i.png",
+      "AssetFile": "E:\\DATN\\PharmacyManagement\\wwwroot\\images\\doctor1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "236790"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eV/qRuhFg1B93PZ8pLZD+EnqdxVphPfRs7TRj6mHLQY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 00:49:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "51114cr71i"
+        },
+        {
+          "Name": "label",
+          "Value": "images/doctor1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eV/qRuhFg1B93PZ8pLZD+EnqdxVphPfRs7TRj6mHLQY="
+        }
+      ]
+    },
+    {
+      "Route": "images/doctor1.png",
+      "AssetFile": "E:\\DATN\\PharmacyManagement\\wwwroot\\images\\doctor1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "236790"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eV/qRuhFg1B93PZ8pLZD+EnqdxVphPfRs7TRj6mHLQY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 00:49:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eV/qRuhFg1B93PZ8pLZD+EnqdxVphPfRs7TRj6mHLQY="
+        }
+      ]
+    },
+    {
       "Route": "images/logo.5zrp2djqus.png",
       "AssetFile": "E:\\DATN\\PharmacyManagement\\wwwroot\\images\\logo.png",
       "Selectors": [],
@@ -8897,6 +9517,416 @@
         {
           "Name": "integrity",
           "Value": "sha256-4Z/eexRRSg4+as5NJgXDPl7SKMwFpUVBXGQCmIi4q0k="
+        }
+      ]
+    },
+    {
+      "Route": "images/medicines/1.e6676b71j8.jpg",
+      "AssetFile": "E:\\DATN\\PharmacyManagement\\wwwroot\\images\\medicines\\1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51195"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Bp1Od9uEIzZdhZAXRo06w50d4s82gvQx6fccrizJ++o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 15:02:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e6676b71j8"
+        },
+        {
+          "Name": "label",
+          "Value": "images/medicines/1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Bp1Od9uEIzZdhZAXRo06w50d4s82gvQx6fccrizJ++o="
+        }
+      ]
+    },
+    {
+      "Route": "images/medicines/1.jpg",
+      "AssetFile": "E:\\DATN\\PharmacyManagement\\wwwroot\\images\\medicines\\1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51195"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Bp1Od9uEIzZdhZAXRo06w50d4s82gvQx6fccrizJ++o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 15:02:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Bp1Od9uEIzZdhZAXRo06w50d4s82gvQx6fccrizJ++o="
+        }
+      ]
+    },
+    {
+      "Route": "images/medicines/dan.5swj0sei4p.jpg",
+      "AssetFile": "E:\\DATN\\PharmacyManagement\\wwwroot\\images\\medicines\\dan.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "175054"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S4P868xGba3ikLZQIcEL1GEtnioeNvZdOepfYJXZHH0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 15:09:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5swj0sei4p"
+        },
+        {
+          "Name": "label",
+          "Value": "images/medicines/dan.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-S4P868xGba3ikLZQIcEL1GEtnioeNvZdOepfYJXZHH0="
+        }
+      ]
+    },
+    {
+      "Route": "images/medicines/dan.jpg",
+      "AssetFile": "E:\\DATN\\PharmacyManagement\\wwwroot\\images\\medicines\\dan.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "175054"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S4P868xGba3ikLZQIcEL1GEtnioeNvZdOepfYJXZHH0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 15:09:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-S4P868xGba3ikLZQIcEL1GEtnioeNvZdOepfYJXZHH0="
+        }
+      ]
+    },
+    {
+      "Route": "images/medicines/tranducdat.g1lpmzg9az.jpg",
+      "AssetFile": "E:\\DATN\\PharmacyManagement\\wwwroot\\images\\medicines\\tranducdat.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "319587"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PEeO0RIkIq72YO7kgPvqykyejUioSkj36HU5DfIMBrs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 15:04:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g1lpmzg9az"
+        },
+        {
+          "Name": "label",
+          "Value": "images/medicines/tranducdat.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PEeO0RIkIq72YO7kgPvqykyejUioSkj36HU5DfIMBrs="
+        }
+      ]
+    },
+    {
+      "Route": "images/medicines/tranducdat.jpg",
+      "AssetFile": "E:\\DATN\\PharmacyManagement\\wwwroot\\images\\medicines\\tranducdat.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "319587"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PEeO0RIkIq72YO7kgPvqykyejUioSkj36HU5DfIMBrs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 15:04:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PEeO0RIkIq72YO7kgPvqykyejUioSkj36HU5DfIMBrs="
+        }
+      ]
+    },
+    {
+      "Route": "images/medicines/z2483540665363_d8cd26289e6027d75bb9138ac021d47b.g8r7k2cikw.jpg",
+      "AssetFile": "E:\\DATN\\PharmacyManagement\\wwwroot\\images\\medicines\\z2483540665363_d8cd26289e6027d75bb9138ac021d47b.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "217581"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YF4L5GCV8hPKAbXlt089/5qvvS8OD5mO6KKZsMKD94M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 15:09:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g8r7k2cikw"
+        },
+        {
+          "Name": "label",
+          "Value": "images/medicines/z2483540665363_d8cd26289e6027d75bb9138ac021d47b.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YF4L5GCV8hPKAbXlt089/5qvvS8OD5mO6KKZsMKD94M="
+        }
+      ]
+    },
+    {
+      "Route": "images/medicines/z2483540665363_d8cd26289e6027d75bb9138ac021d47b.jpg",
+      "AssetFile": "E:\\DATN\\PharmacyManagement\\wwwroot\\images\\medicines\\z2483540665363_d8cd26289e6027d75bb9138ac021d47b.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "217581"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YF4L5GCV8hPKAbXlt089/5qvvS8OD5mO6KKZsMKD94M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 15:09:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YF4L5GCV8hPKAbXlt089/5qvvS8OD5mO6KKZsMKD94M="
+        }
+      ]
+    },
+    {
+      "Route": "images/nurse.png",
+      "AssetFile": "E:\\DATN\\PharmacyManagement\\wwwroot\\images\\nurse.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "301361"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7U9LZ4cKgMT08ktUUt0RmrOevmhttzmrnpF5eiWCZwE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 00:50:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7U9LZ4cKgMT08ktUUt0RmrOevmhttzmrnpF5eiWCZwE="
+        }
+      ]
+    },
+    {
+      "Route": "images/nurse.rqxhrgz6xx.png",
+      "AssetFile": "E:\\DATN\\PharmacyManagement\\wwwroot\\images\\nurse.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "301361"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7U9LZ4cKgMT08ktUUt0RmrOevmhttzmrnpF5eiWCZwE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 00:50:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rqxhrgz6xx"
+        },
+        {
+          "Name": "label",
+          "Value": "images/nurse.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7U9LZ4cKgMT08ktUUt0RmrOevmhttzmrnpF5eiWCZwE="
         }
       ]
     },

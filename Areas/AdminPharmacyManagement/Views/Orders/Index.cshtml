@@ -31,8 +31,8 @@
                         <td>@Html.DisplayFor(modelItem => item.OrderDate)</td>
                         <td>@Html.DisplayFor(modelItem => item.Status)</td>
                         <td>@Html.DisplayFor(modelItem => item.TotalAmount)</td>
-                        <td>@Html.DisplayFor(modelItem => item.Customer.CustomerId)</td>
-                        <td>@Html.DisplayFor(modelItem => item.Employee.EmployeeId)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Customer.Name)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Employee.Name)</td>
                         <td>
                             <a asp-action="Edit" asp-route-id="@item.OrderId" class="btn btn-sm btn-primary"><i class="fas fa-edit"></i></a>
                             <a asp-action="Details" asp-route-id="@item.OrderId" class="btn btn-sm btn-info"><i class="fas fa-info-circle"></i></a>

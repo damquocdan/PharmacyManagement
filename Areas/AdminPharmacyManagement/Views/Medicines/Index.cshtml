@@ -41,8 +41,10 @@
                         <td>@Html.DisplayFor(modelItem => item.Stock)</td>
                         <td>@Html.DisplayFor(modelItem => item.ExpiryDate)</td>
                         <td>@Html.DisplayFor(modelItem => item.Usage)</td>
-                        <td>@Html.DisplayFor(modelItem => item.Image)</td>
-                        <td>@Html.DisplayFor(modelItem => item.Category.CategoryId)</td>
+                        <td>
+                            <img src="@Html.DisplayFor(modelItem => item.Image)" width="100px" height="100px"/>
+                        </td>
+                        <td>@Html.DisplayFor(modelItem => item.Category.CategoryName)</td>
                         <td>
                             <a asp-action="Edit" asp-route-id="@item.MedicineId" class="btn btn-sm btn-primary"><i class="fas fa-edit"></i></a>
                             <a asp-action="Details" asp-route-id="@item.MedicineId" class="btn btn-sm btn-info"><i class="fas fa-info-circle"></i></a>

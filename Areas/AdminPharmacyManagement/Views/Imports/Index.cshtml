@@ -32,7 +32,7 @@
                         <td>@Html.DisplayFor(modelItem => item.ImportDate)</td>
                         <td>@Html.DisplayFor(modelItem => item.Quantity)</td>
                         <td>@Html.DisplayFor(modelItem => item.CostPrice)</td>
-                        <td>@Html.DisplayFor(modelItem => item.Medicine.MedicineId)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Medicine.Name)</td>
                         <td>
                             <a asp-action="Edit" asp-route-id="@item.ImportId" class="btn btn-sm btn-primary"><i class="fas fa-edit"></i></a>
                             <a asp-action="Details" asp-route-id="@item.ImportId" class="btn btn-sm btn-info"><i class="fas fa-info-circle"></i></a>
